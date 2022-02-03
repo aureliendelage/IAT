@@ -9,12 +9,12 @@ Dans ce problème, on s'intéresse à la résolution d'un labyrinthe fixé de ta
 2. Calculer fonction de valeur V(s) associer au labyrinthe suivant (dessiner un labyrinthe et le mettre dans un fichier .txt pour être utilisé dans les tests)
   - parameters : gamma = 1.0
   - R_t(s, a) = -1 pour tout s, pour tout a, et pour tout t
-  - **Transition déterministes** 
+  - **Transition déterministes** : le robot se déplace en fonction de son action de manière certaine
 
 3. Calculer fonction de valeur V(s) associer au même labyrinthe (cette fois le modèle de transition est stochastique)
   - parameters : gamma = 1.0
   - R_t(s, a) = -1 pour tout s, pour tout a, et pour tout t
-  - **Transition stochastiques** (modèle à définir) 
+  - **Transition stochastiques** (modèle à définir, avec une certaine probabilité, le robot est déplacé suivant une autre direction que celle de son action) 
 
 ## Partie 2 : Value Iteration (30min)
 
